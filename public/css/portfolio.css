@@ -1,0 +1,36 @@
+body{
+  /* background-image: url("../img/background.jpg"); */
+  background-size: cover;
+  padding-top: 200px;
+  font-family: 'Playfair Display', serif;
+  overflow-x: hidden;
+}
+
+.contenu-float-left-text{
+  display: flex;
+  padding: 100px 0px;
+  font-size: 2.3em;
+  color: black;
+}
+
+.titre-principal{
+    background-color: black;
+    color: #86878C;
+}
+
+.image-col-4 {
+  background-image: url("../img/deco2.jpg");
+  background-size: cover;
+  height: 50vh;
+  padding: 0px;
+  transition: all 0.5s;
+}
+
+.image-col-4:hover{
+  /* transform: scale(0.9,0.9); */
+  box-shadow: 4px 5px 10px 4px #333;
+}
+
+.padding-container{
+  padding: 50px;
+}

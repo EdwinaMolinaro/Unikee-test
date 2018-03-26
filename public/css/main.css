@@ -1,0 +1,164 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden ;
+  background-color: #eee;
+  font-family: 'Playfair Display', serif;
+}
+
+/*/////////////ESPACE NAVBAR/////////////*/
+
+.text-float-left{
+  display: flex;
+  padding: 0px 100px;
+  font-size: 2em;
+}
+
+.nav-perso{
+  background-color: #fff;
+  padding: 50px 0;
+  font-family: sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  float: center;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.nav-perso li{
+  display: inline-block;
+  list-style: outside none none;
+  margin: .5em 1em;
+  padding: 0;
+}
+
+.nav-perso a{
+  padding: .5em 0.8em;
+  color: black;
+  position: relative;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.nav-perso a:before,
+.nav-perso a:after{
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  content: '';
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+
+.nav-perso a:before{
+  right: 0;
+  top: 0;
+  border-right: 1px dotted black;
+  border-top: 1px dotted black;
+  transform:  rotateY(120deg);
+
+}
+
+.nav-perso a:after {
+  left: 0;
+  bottom: 0;
+  border-left: 1px dotted black;
+  border-bottom: 1px dotted black;
+  transform: rotateY(120deg);
+}
+
+a:hover:before,
+a:hover:after{
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+
+/*/////////////ESPACE BACKGROUND IMAGE/////////////*/
+
+.background-image-header{
+  background-image: url("../img/deco.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*padding: 50px 0;*/
+  height: 100vh;
+}
+
+
+/*/////////////TITRE ET TEXTE ABOUT US/////////////*/
+
+h1, h2{
+  font-size: 2.5em;
+  text-align: center;
+  padding: 50px 0px;
+  margin:0;
+}
+
+.content-center-text{
+  padding: 10px 0px 50px;
+  text-align: center;
+  font-size: 1.2em;
+  border-bottom: solid 0.2px;
+}
+.content-col6-square{
+  font-size: 1.6em;
+  text-align: center;
+  padding: 50px;
+}
+
+
+.icon-bootstrap{
+  font-size: 1.5em;
+}
+
+.text-col6-square{
+  font-size: 0.7em;
+}
+
+/*BACKGROUND IMAGE GALLERIE*/
+
+.background-image-gallery{
+  background-image: url("../img/ballons.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* padding: 50px 0; */
+  height: 50vh;
+  position: relative;
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button-style{
+  font-size: 2em;
+  background-color: #D3D0CB;
+  color: #4B4C47;
+  border: solid 2px #D3D0CB;
+  cursor: pointer;
+}
+
+.button-style:hover{
+  background-color: #eee;
+  border: solid 2px #D3D0CB;
+  color: #4B4C47;
+}
+
+
+/*CSS PORTFOLIO*/
