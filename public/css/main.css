@@ -106,7 +106,7 @@ a:hover:after{
 }
 
 h1, h2{
-  font-size: 2.5em;
+  font-size: 2em;
   text-align: center;
   padding: 50px 0px;
   margin:0;
@@ -119,7 +119,7 @@ h1, h2{
   border-bottom: solid 0.2px;
 }
 .content-col6-square{
-  font-size: 1.6em;
+  font-size: 1.3em;
   text-align: center;
   padding: 50px;
 }

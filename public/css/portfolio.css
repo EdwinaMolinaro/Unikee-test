@@ -23,11 +23,22 @@ body{
   height: 50vh;
   padding: 0px;
   transition: all 0.5s;
+  position: relative;
 }
 
 .image-col-4:hover{
-  /* transform: scale(0.9,0.9); */
   box-shadow: 4px 5px 10px 4px #333;
+}
+
+.see-more{
+  display: flex;
+  margin: 0;
+  top: 250px;
+  left: 100px;
+  align-items : flex-end;
+  padding-bottom: 100px;
+  background-color: red;
+  height: 100%;
 }
 
 .padding-container{
