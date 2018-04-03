@@ -1,20 +1,29 @@
 body{
   /* background-image: url("../img/background.jpg"); */
-  background-size: cover;
-  padding-top: 200px;
+  padding-top: 160px;
   font-family: 'Playfair Display', serif;
   overflow-x: hidden;
+  margin: 0;
+
 }
+
+/*/////////////TITRE GALLERIE/////////////*/
 
 .contenu-float-left-text{
   display: flex;
   padding: 100px 0px;
-  font-size: 2.3em;
+  font-size: 2em;
   color: black;
 }
 
 .titre-principal{
   color: #E0E3EC;
+}
+
+/*/////////////BACKGROUND IMAGE PORTFOLIO AND SEE MORE/////////////*/
+
+.row-flex{
+  display: flex;
 }
 
 .image-col-4 {
@@ -27,18 +36,20 @@ body{
 }
 
 .image-col-4:hover{
-  box-shadow: 4px 5px 10px 4px #333;
+  box-shadow: 4px 5px 10px 4px  rgba(0,0,0,0.4);
 }
 
 .see-more{
   display: flex;
   margin: 0;
-  top: 250px;
-  left: 100px;
   align-items : flex-end;
-  padding-bottom: 100px;
-  background-color: red;
-  height: 100%;
+  font-size: 1.1em;
+  transition: all 0.1s;
+  cursor: pointer;
+}
+
+.see-more:hover{
+  font-size: 1.2em;
 }
 
 .padding-container{
